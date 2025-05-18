@@ -250,10 +250,10 @@ nav a:hover {
 .project1::after {
     content: "";
     position: absolute;
-    left: 5%;
+    left: 0%;
     bottom: 0;
-    width: 50%;
-    height: 50%;
+    width: 35%;
+    height: 35%;
     border-left: 1px solid white;
     border-bottom: 1px solid white;
 }
@@ -877,10 +877,10 @@ footer {
 
 .page-footer a {
     text-decoration: none;
-    color: purple;
+    color: rgb(255, 0, 255);
 }
 
 .page-footer a:hover {
-    color: rgb(216, 0, 216);
+    color: purple;
     transition: 0.3s;
 }

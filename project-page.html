@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spencer O'Neil</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="so_logo.png" type="image/logo">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main id="project-page">
+        <section class="title">
+        <header class="hero-header">
+            <h1>
+                P<span class="accent-num">0</span>rtf<span class="accent-num">0</span>l<span class="accent-num">10</span> <br>
+                &nbsp;&nbsp; Pr<span class="accent-num">0</span>j<span class="accent-num">3</span>cts
+            </h1>
+        </header>
+        <img class="logo" src="so_logo.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a class="inactive" href="index.html">H0me</a></li>
+                <li><a class="active" href="project-page.html">Projects</a></li>
+                <li><a class="inactive" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        </section>
+        <h2 class="projects-header">All Projects</h2>
+        <article class="all-projects">
+            <div class="project-box" data-title="Art Portfolio" data-description="A portfolio website to showcase artwork" data-img="project_pictures/grace-wall-main-page.png">
+                <img src="project_pictures/grace-wall-page.png" alt="grace-wall-art-main-page">
+                <h3>Art Portfolio</h3>
+            </div>
+            <div class="project-box" data-title="Grading App" data-description="Webpage to allow psychology students to grade classmates" data-img="project_pictures/grading-app-main-page.png">
+                <img src="project_pictures/grading-app-page.png" alt="grading-app-main-page">
+                <h3>Grading App</h3>
+            </div>
+            <div class="project-box" data-title="Mobile Todo App" data-description="Basic mobile todo app; a learning activity to understand mobile development" data-img="project_pictures/mobile-todo-app.png">
+                <img src="project_pictures/mobile-todo-app.png" alt="mobile-todo-app">
+                <h3>Mobile Todo App</h3>
+            </div>
+            <div class="project-box" data-title="American Psycho Text-Based Game" data-description="A text based game, similar to 'A Dark Room', that allows the user to make choices in the story" data-img="project_pictures/text-based-game.png">
+                <img src="project_pictures/text-based-game.png" alt="american-psycho-text-based-game">
+                <h3>Text-Based Game</h3>
+            </div>
+            <div id="project-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn">&times;</span>
+                    <h2 id="modal-title"></h2>
+                    <img id="modal-img" src="" alt="" style="max-width: 100%; border-radius: 10px;">
+                    <p id="modal-description"></p>
+                </div>
+            </div>
+        </article>
+        <div class="in-progress-wrapper">
+            <div class="in-progress-bg"></div>
+                <article class="in-progress">
+                    <div>
+                        <h2>In Progress:</h2>
+                    </div>
+                            <div class="in-progress-projects">
+                                <div class="inline-projects1">
+                                    <div class="in-progress-project1">
+                                        <h3>Facebook Lookalike</h3>
+                                        <p>A facebook-esque project where, using the VSCode IDE, where the current tech stack looks like:</p>
+                                        <ul>
+                                            <li><p>Frontend: React + Tailwind</p></li>
+                                            <li><p>Backend: Node.js/Express</p></li>
+                                            <li><p>Database: MySQL</p></li>
+                                            <li><p>Probably Firebase Auth because of it's popularity</p></li>
+                                            <li><p>Deployed via Vercel/Render</p></li>
+                                        </ul>
+                                    </div>
+                                    <div class="in-progress-project2">
+                                        <h3>2D Game</h3>
+                                        <p>A 2D adventure genre game, that allows the user to move and interact (relatively basic)</p>
+                                        <p>Two Versions: Web-Based & Desktop</p>
+                                        <ul>
+                                            <li><p>Web: HTML/CSS/JS, Phaser.js Game Engine</p></li>
+                                            <li><p>Desktop:</p></li>
+                                            <li><p>&nbsp;Language/Graphics: C++ & SFML</p></li>
+                                            <li><p>&nbsp;IDE: Visual Studio</p></li>
+                                            <li><p>&nbsp;Eventual Physics: Box2D</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="inline-projects2">
+                                    <div class="in-progress-project3">
+                                        <h3>Igris Software</h3>
+                                        <p>Still In Conceptual Stage...</p>
+                                    </div>
+                                </div>
+                            </div>
+                </article>
+        </div>
+    </main>
+    <hr class="diff">
+    <footer class="page-footer">
+        <p class="linkedin-link">LinkedIn: <a href="https://www.linkedin.com/in/spencer-o-117219255/" target="_blank">Spencer O'Neil</a></p>
+        <p class="copyright">&copy; 2025 Spencer O'Neil</p>
+        <p class="github-link">GitHub: <a href="https://github.com/tr1ck17" target="_blank">Spencer O'Neil / tr1ck17</a></p>
+    </footer>
+</body>
+</html>
